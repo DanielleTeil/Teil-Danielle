@@ -81,10 +81,10 @@
         'desc1': "Biography of the famous restaurateur Marco Cruciani, who hosted stars of the performing arts at his table. Each left a signature in his guestbook, which now holds over 3,000 signatures. From Petrucciani to Jean-Jacques Goldman, from Jane Birkin to Pierre Bachelet, many have confided in Marco.",
         'title2': 'Saint-Étienne and the Theatre',
         'desc2': "From vaudeville to comedy: 1650–1990. Three centuries of local life and an account that goes beyond the city to the history of theatre in France. Saint-Étienne, cradle of theatrical decentralisation, owes much to figures such as Dasté. Today the Comédie de Saint-Étienne is among the country's major dramatic centres.",
-        'pub1_date': 'September 1999',
-        'pub1_publisher': 'Independent',
-        'pub2_date': 'October 1990',
-        'pub2_publisher': 'Xavier Lejeune Editions',
+        'pub1': 'September 1999',
+        'pub1p': 'Independent',
+        'pub2': 'October 1990',
+        'pub2p': 'Xavier Lejeune Editions',
         'alt1': 'Cover — When the Stars Dine',
         'alt2': 'Cover — Saint-Étienne and the Theatre'
       },
@@ -94,10 +94,10 @@
         'desc1': "Biographie d'un célèbre restaurateur, Marco Cruciani, qui recevait à sa table les stars du spectacle. Chacune d'entre elles lui laissaient une signature sur son livre d'or, qui comporte aujourd'hui plus de 3000 signatures. De Petrucciani à Jean-Jacques Goldman, de Jane Birkin à Pierre Bachelet, ils sont nombreux à s'être confiés à Marco.",
         'title2': 'Saint-Étienne et le théâtre',
         'desc2': "Du vaudeville à la comédie : 1650 - 1990. Trois siècles de vie locale, mais aussi une histoire qui dépasse largement les horizons de la ville et intègre l'histoire du théâtre en France. Saint-Étienne, le berceau de la décentralisation théâtrale, n'a sans doute jamais mieux mérité ce qualificatif avec l'histoire européenne qu'elle a amorcée. De grands hommes, comme Dasté, ont fait son histoire et aujourd'hui la Comédie de Saint-Étienne est un des plus grands centres dramatiques nationaux.",
-        'pub1_date': 'Septembre 1999',
-        'pub1_publisher': 'Indépendant',
-        'pub2_date': 'Octobre 1990',
-        'pub2_publisher': 'Éditions Xavier Lejeune',
+        'pub1': 'Septembre 1999',
+        'pub1p': 'Indépendant',
+        'pub2': 'Octobre 1990',
+        'pub2p': 'Éditions Xavier Lejeune',
         'alt1': 'Couverture — Quand les stars passent à table',
         'alt2': 'Couverture — Saint-Étienne et le théâtre'
       }
@@ -113,10 +113,10 @@
       document.getElementById('title2').textContent = translations[lang].title2;
       document.getElementById('desc2').textContent = translations[lang].desc2;
 
-      document.getElementById('pub1').textContent = translations[lang].pub1_date;
-      document.getElementById('pub1p').textContent = translations[lang].pub1_publisher;
-      document.getElementById('pub2').textContent = translations[lang].pub2_date;
-      document.getElementById('pub2p').textContent = translations[lang].pub2_publisher;
+      document.getElementById('pub1').textContent = translations[lang].pub1;
+      document.getElementById('pub1p').textContent = translations[lang].pub1p;
+      document.getElementById('pub2').textContent = translations[lang].pub2;
+      document.getElementById('pub2p').textContent = translations[lang].pub2p;
 
       document.getElementById('cover1').alt = translations[lang].alt1;
       document.getElementById('cover2').alt = translations[lang].alt2;
@@ -139,4 +139,5 @@
   </script>
 </body>
 </html>
+
 
