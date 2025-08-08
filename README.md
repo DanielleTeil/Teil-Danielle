@@ -25,15 +25,37 @@
 
     .cards{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:24px}
     .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
-    .cover{width:100%;height:300px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#f3f4f6}
-    .cover img{width:100%;height:100%;object-fit:contain}
+
+    /* Modification ici */
+    .cover {
+      width: 100%;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f3f4f6;
+      padding: 10px;
+    }
+    .cover img {
+      max-width: 100%;
+      max-height: 100%;
+      height: auto;
+      width: auto;
+      object-fit: contain;
+      display: block;
+    }
+
     h3{margin:12px 0 6px 0;font-family:Georgia,serif}
     .meta{font-size:13px;color:var(--muted)}
     .desc{margin-top:10px;color:#222;font-size:15px}
 
     footer{margin-top:28px;padding-top:18px;border-top:1px solid #eef2ff;color:var(--muted);font-size:14px}
 
-    @media (max-width:720px){.cards{grid-template-columns:1fr}.cover{height:220px}.title{font-size:22px}}
+    @media (max-width:720px){
+      .cards{grid-template-columns:1fr}
+      .title{font-size:22px}
+    }
   </style>
 </head>
 <body>
@@ -138,6 +160,5 @@
   </script>
 </body>
 </html>
-
 
 
