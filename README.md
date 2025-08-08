@@ -26,7 +26,7 @@
     .cards{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:24px}
     .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
     .cover{width:100%;height:300px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#f3f4f6}
-    .cover img{width:100%;height:100%;object-fit:cover}
+    .cover img{width:100%;height:100%;object-fit:contain}
     h3{margin:12px 0 6px 0;font-family:Georgia,serif}
     .meta{font-size:13px;color:var(--muted)}
     .desc{margin-top:10px;color:#222;font-size:15px}
@@ -138,5 +138,6 @@
   </script>
 </body>
 </html>
+
 
 
