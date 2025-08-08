@@ -1,16 +1,4 @@
 <!doctype html>
-<!--
-  index.html
-  Page statique bilingue FR / EN prête à être déposée à la racine du dépôt GitHub
-
-  Instructions :
-  1) Remplace l'ancien fichier par celui-ci et nomme-le exactement `index.html` à la racine du repo.
-  2) Dépose les images `Stars.png` et `ST-etienne-theatre.png` à la racine (même dossier que index.html).
-  3) Active GitHub Pages (branche main, dossier: / root) si ce n'est pas déjà fait.
-  4) Teste l'URL : https://danielleteil.github.io/danielle-teil-auteure/  (les boutons FR / EN basculent le texte)
-
-  Remarque SEO : ce fichier utilise JSON-LD et meta tags. Pour une vraie stratégie SEO, créez aussi une page /en/index.html (optionnel) et soumettez l'URL à Google Search Console.
--->
 <html lang="fr">
 <head>
   <meta charset="utf-8">
@@ -46,7 +34,6 @@
 
     footer{margin-top:28px;padding-top:18px;border-top:1px solid #eef2ff;color:var(--muted);font-size:14px}
 
-    /* Responsive */
     @media (max-width:720px){.cards{grid-template-columns:1fr}.cover{height:220px}.title{font-size:22px}}
   </style>
 </head>
@@ -83,12 +70,10 @@
 
     <footer>
       <div>Contact : <a href="mailto:dteil1243@gmail.com">dteil1243@gmail.com</a></div>
-      
     </footer>
   </div>
 
   <script>
-    // Translations for visible content and meta values
     const translations = {
       en: {
         tagline: 'Writer — Author',
@@ -118,7 +103,6 @@
       }
     };
 
-    // Set language (updates visible text, alt attributes, and document lang)
     function setLang(lang){
       if(!translations[lang]) lang = 'fr';
       document.documentElement.lang = (lang === 'en') ? 'en' : 'fr';
@@ -137,42 +121,22 @@
       document.getElementById('cover1').alt = translations[lang].alt1;
       document.getElementById('cover2').alt = translations[lang].alt2;
 
-      // update ARIA pressed
       document.getElementById('btn-fr').setAttribute('aria-pressed', lang === 'fr' ? 'true' : 'false');
       document.getElementById('btn-en').setAttribute('aria-pressed', lang === 'en' ? 'true' : 'false');
 
-      // Optionally update the URL query param without reloading
       try{ const u = new URL(window.location); u.searchParams.set('lang', lang); window.history.replaceState({}, '', u); }catch(e){}
     }
 
-    // Buttons
     document.getElementById('btn-fr').addEventListener('click', ()=>setLang('fr'));
     document.getElementById('btn-en').addEventListener('click', ()=>setLang('en'));
 
-    // Detect ?lang=en parameter or browser language on first load
     (function(){
       const q = new URLSearchParams(window.location.search).get('lang');
       if(q === 'en' || q === 'fr'){ setLang(q); return; }
       const nav = (navigator.languages && navigator.languages[0]) || navigator.language || 'fr';
       if(nav.startsWith('en')) setLang('en'); else setLang('fr');
     })();
-
-    // JSON-LD for SEO
-    (function(){
-      const jsonld = {
-        "@context":"https://schema.org",
-        "@type":"Person",
-        "name":"Teil Danielle",
-        "email":"mailto:dteil1243@gmail.com",
-        "knowsAbout":["théâtre","biographies","histoire locale"],
-        "knowsLanguage":["fr","en"],
-        "hasPublished":[
-          {"@type":"CreativeWork","name":"Quand les stars passent à table","datePublished":"1999-09"},
-          {"@type":"CreativeWork","name":"Saint-Étienne et le théâtre","datePublished":"1990-10","publisher":{"@type":"Organization","name":"Éditions Xavier Lejeune"}}
-        ]
-      };
-      const s = document.createElement('script'); s.type='application/ld+json'; s.textContent = JSON.stringify(jsonld); document.head.appendChild(s);
-    })();
   </script>
 </body>
 </html>
+
