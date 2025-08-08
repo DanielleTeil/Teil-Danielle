@@ -2,10 +2,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Teil Danielle — Écrivaine — "Quand les stars passent à table" • "Saint-Étienne et le théâtre"</title>
+  <title>Teil Danielle — Auteure — "Quand les stars passent à table" • "Saint-Étienne et le théâtre"</title>
   <meta name="description" content="Page officielle de Teil Danielle — auteure, résumés et couvertures de ses ouvrages. Contact : dteil1243@gmail.com" />
   <meta name="keywords" content="Teil Danielle, écrivaine, auteure, théâtre, Saint-Étienne, biographie" />
-  <meta property="og:title" content="Teil Danielle — Écrivaine" />
+  <meta property="og:title" content="Teil Danielle — Auteure" />
   <meta property="og:description" content="Auteure de 'Quand les stars passent à table' et 'Saint-Étienne et le théâtre'." />
   <meta property="og:type" content="profile" />
   <meta property="og:locale" content="fr_FR" />
@@ -75,7 +75,7 @@
   <script>
     const translations = {
       en: {
-        tagline: 'Writer — Author',
+        tagline: 'Auteure — Author',
         'title1': 'When the Stars Dine',
         'desc1': "Biography of the famous restaurateur Marco Cruciani, who hosted stars of the performing arts at his table. Each left a signature in his guestbook, which now holds over 3,000 signatures. From Petrucciani to Jean-Jacques Goldman, from Jane Birkin to Pierre Bachelet, many have confided in Marco.",
         'title2': 'Saint-Étienne and the Theatre',
