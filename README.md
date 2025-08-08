@@ -80,7 +80,7 @@
       en: {
         tagline: 'Writer — Author',
         'title-book-1': 'When the Stars Dine',
-        'desc1': "Biography of the famous restaurateur Marco Cruciani, who hosted stars of the performing arts at his table. Each left a signature in his guestbook, which now holds over 3,000 signatures.",
+        'desc1': "Biography of the famous restaurateur Marco Cruciani, who hosted stars of the performing arts at his table. Each left a signature in his guestbook, which now holds over 3,000 signatures.From Petrucciani to Jean-Jacques Goldman, from Jane Birkin to Pierre Bachelet, many have confided in Marco.",
         'title-book-2': 'Saint-Étienne and the Theatre',
         'desc2': "From vaudeville to comedy: 1650–1990. Three centuries of local life and an account that goes beyond the city to the history of theatre in France. Saint-Étienne, cradle of theatrical decentralisation, owes much to figures such as Dasté. Today the Comédie de Saint-Étienne is among the country's major dramatic centres."
       },
