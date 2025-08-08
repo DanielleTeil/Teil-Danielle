@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Teil Danielle — Auteure — "Quand les stars passent à table" • "Saint-Étienne et le théâtre"</title>
   <meta name="description" content="Page officielle de Teil Danielle — auteure, résumés et couvertures de ses ouvrages. Contact : dteil1243@gmail.com" />
-  <meta name="keywords" content="Teil Danielle, écrivaine, auteure, théâtre, Saint-Étienne, biographie" />
+  <meta name="keywords" content="Teil Danielle, auteure, théâtre, Saint-Étienne, biographie" />
   <meta property="og:title" content="Teil Danielle — Auteure" />
   <meta property="og:description" content="Auteure de 'Quand les stars passent à table' et 'Saint-Étienne et le théâtre'." />
   <meta property="og:type" content="profile" />
