@@ -88,7 +88,7 @@
         'alt2': 'Cover — Saint-Étienne and the Theatre'
       },
       fr: {
-        tagline: 'Écrivaine — Author',
+        tagline: 'Auteure — Author',
         'title1': "Quand les stars passent à table",
         'desc1': "Biographie d'un célèbre restaurateur, Marco Cruciani, qui recevait à sa table les stars du spectacle. Chacune d'entre elles lui laissaient une signature sur son livre d'or, qui comporte aujourd'hui plus de 3000 signatures. De Petrucciani à Jean-Jacques Goldman, de Jane Birkin à Pierre Bachelet, ils sont nombreux à s'être confiés à Marco.",
         'title2': 'Saint-Étienne et le théâtre',
