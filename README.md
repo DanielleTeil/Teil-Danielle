@@ -78,7 +78,7 @@
         <div class="cover"><img src="Stars.png" alt="Couverture — Quand les stars passent à table" id="cover1"/></div>
         <h3 class="title-book" id="title1">Quand les stars passent à table</h3>
         <div class="meta"><span class="pub-date" id="pub1">Septembre 1999</span> — <span class="publisher" id="pub1p">Indépendant</span></div>
-        <div class="desc" id="desc1">Biographie d'un célèbre restaurateur, Marco Cruciani, qui recevait à sa table les stars du spectacle. Chacune d'entre elles lui laissaient une signature sur son livre d'or, qui comporte aujourd'hui plus de 3000 signatures. De Petrucciani à Jean-Jacques Goldman, de Jane Birkin à Pierre Bachelet, ils sont nombreux à s'être confiés à Marco.</div>
+        <div class="desc" id="desc1">Biographie d'un célèbre restaurateur, Marco Cruciani, qui recevait à sa table les stars du spectacle. Chacune d'entre elles lui laissait une signature sur son livre d'or, qui comporte aujourd'hui plus de 3000 signatures. De Petrucciani à Jean-Jacques Goldman, de Jane Birkin à Pierre Bachelet, ils sont nombreux à s'être confiés à Marco.</div>
       </article>
 
       <article class="card" id="book2">
