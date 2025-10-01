@@ -112,7 +112,7 @@
       fr: {
         tagline: 'Auteure — Author',
         'title1': "Quand les stars passent à table",
-        'desc1': "Biographie d'un célèbre restaurateur, Marco Cruciani, qui recevait à sa table les stars du spectacle. Chacune d'entre elles lui laissaient une signature sur son livre d'or, qui comporte aujourd'hui plus de 3000 signatures. De Petrucciani à Jean-Jacques Goldman, de Jane Birkin à Pierre Bachelet, ils sont nombreux à s'être confiés à Marco.",
+        'desc1': "Biographie d'un célèbre restaurateur, Marco Cruciani, qui recevait à sa table les stars du spectacle. Chacune d'entre elles lui laissait une signature sur son livre d'or, qui comporte aujourd'hui plus de 3000 signatures. De Petrucciani à Jean-Jacques Goldman, de Jane Birkin à Pierre Bachelet, ils sont nombreux à s'être confiés à Marco.",
         'title2': 'Saint-Étienne et le théâtre',
         'desc2': "Du vaudeville à la comédie : 1650 - 1990. Trois siècles de vie locale, mais aussi une histoire qui dépasse largement les horizons de la ville et intègre l'histoire du théâtre en France. Saint-Étienne, le berceau de la décentralisation théâtrale, n'a sans doute jamais mieux mérité ce qualificatif avec l'histoire européenne qu'elle a amorcée. De grands hommes, comme Dasté, ont fait son histoire et aujourd'hui la Comédie de Saint-Étienne est un des plus grands centres dramatiques nationaux.",
         'pub1': 'Septembre 1999',
@@ -160,5 +160,3 @@
   </script>
 </body>
 </html>
-
-
